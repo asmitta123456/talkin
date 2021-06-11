@@ -6,11 +6,11 @@
 
         <variable
             name="message"
-            type="com.artf.chatapp.data.model.Message" />
+            type="com.asmitta.talkin.data.model.Message" />
 
         <variable
             name="msgAdapterInt"
-            type="com.artf.chatapp.view.chatRoom.MsgAdapter.MsgAdapterListener" />
+            type="com.asmitta.talkin.view.chatRoom.MsgAdapter.MsgAdapterListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

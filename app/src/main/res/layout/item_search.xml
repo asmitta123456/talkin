@@ -7,11 +7,11 @@
 
         <variable
             name="user"
-            type="com.artf.chatapp.data.model.User" />
+            type="com.asmitta.talkin.data.model.User" />
 
         <variable
             name="clickListener"
-            type="com.artf.chatapp.view.searchUser.SearchAdapter.OnClickListener" />
+            type="com.asmitta.talkin.view.searchUser.SearchAdapter.OnClickListener" />
     </data>
 
     <LinearLayout

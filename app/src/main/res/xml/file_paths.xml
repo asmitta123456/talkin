@@ -2,10 +2,10 @@
 <paths>
     <external-path
         name="media"
-        path="Android/media/com.artf.chatapp/ChatApp" />
+        path="Android/media/com.asmitta.chatapp/ChatApp" />
     <external-path
         name="data"
-        path="Android/data/com.artf.chatapp/ChatApp" />
+        path="Android/data/com.asmitta.chatapp/ChatApp" />
     <files-path
         name="files"
         path="." />

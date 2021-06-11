@@ -7,11 +7,11 @@
 
         <variable
             name="chat"
-            type="com.artf.chatapp.data.model.Chat" />
+            type="com.asmitta.talkin.data.model.Chat" />
 
         <variable
             name="clickListener"
-            type="com.artf.chatapp.view.chatRooms.ChatListAdapter.OnClickListener" />
+            type="com.asmitta.talkin.view.chatRooms.ChatListAdapter.OnClickListener" />
     </data>
 
     <LinearLayout
