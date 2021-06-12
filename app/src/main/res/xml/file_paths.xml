@@ -2,11 +2,29 @@
 <paths>
     <external-path
         name="media"
-        path="Android/media/com.asmitta.chatapp/ChatApp" />
+        path="Android/media/com.asmitta.talkin/ChatApp" />
     <external-path
         name="data"
-        path="Android/data/com.asmitta.chatapp/ChatApp" />
+        path="Android/data/com.asmitta.talkin/ChatApp" />
     <files-path
         name="files"
         path="." />
+
+
+    <external-path
+        name="external"
+        path="." />
+    <external-files-path
+        name="external_files"
+        path="." />
+    <cache-path
+        name="cache"
+        path="." />
+    <external-cache-path
+        name="external_cache"
+        path="." />
+    <files-path
+        name="files"
+        path="." />
+
 </paths>
