@@ -18,4 +18,9 @@
         android:id="@+id/change_username"
         android:title="@string/change_username"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        app:showAsAction="never" />
 </menu>

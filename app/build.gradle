@@ -138,6 +138,7 @@ dependencies {
     testImplementation "junit:junit:$junit"
     testImplementation "org.robolectric:annotations:$robolectric"
     testImplementation "org.robolectric:robolectric:$robolectric"
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 
     //Android Test
     debugImplementation("androidx.fragment:fragment-testing:$fragment") {

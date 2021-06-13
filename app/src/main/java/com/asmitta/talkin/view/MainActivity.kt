@@ -22,6 +22,7 @@ import com.asmitta.talkin.utils.FileHelper
 import com.asmitta.talkin.utils.convertFromString
 import com.asmitta.talkin.utils.states.AuthenticationState
 import com.asmitta.talkin.utils.states.FragmentState
+import com.asmitta.talkin.view.userProfile.ProfileActivity
 import com.firebase.ui.auth.AuthUI
 import dagger.hilt.android.AndroidEntryPoint
 import java.io.File
@@ -168,6 +169,11 @@ class MainActivity : AppCompatActivity() {
                 true
             }
             R.id.search -> {
+                true
+            }
+            R.id.profile ->{
+                val intent = Intent(this,ProfileActivity::class.java)
+                startActivity(intent)
                 true
             }
             else -> super.onOptionsItemSelected(item)
